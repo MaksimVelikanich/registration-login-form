@@ -5,10 +5,7 @@ document.getElementById('check').onclick = function(){
     checkLogin = Boolean(login)
     checkPassword = Boolean(password)
     if(checkLogin && checkPassword == true){
-        let info = [
-            { 'login': login },
-            { 'password': password }
-         ]
+        let info = [login,password]
          console.log(info)
     }
 }
